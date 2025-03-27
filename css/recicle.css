@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter, sans-serif;
+  text-decoration: none;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navbar {
+    width: 100%;
+}
+
+#logo {
+    width: 190px;
+    height: 80px;
+    display: flex;
+    margin-right: 50px;
+    justify-content: start;
+    align-items: center;
+}
+
+#logo img {
+    width: 70%;
+    height: 70%;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.navegation {
+    width: 70%;
+    margin: auto;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navegation a {
+    color: #003334;
+}
+
+.login {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    background-color: #00BFFF;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.login a {
+    color: white;
+}
+
+.hero {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    border-radius: 0 0 50% 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    background: url('../img/bateria.webp') center/cover;
+    overflow: hidden;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 136, 204, 0.4);
+    z-index: 1;
+}
+
+.hero h1 {
+    position: relative;
+    z-index: 2;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.tw {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tt {
+    flex: 1;
+}
+
+.ic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.is, .ip {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+.br1, .br2 {
+    background: linear-gradient(to right, #00CCCB, #278d8b);
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+}
+
+.t1, .t2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+
+.tc, .tr {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 550;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #1E1E1E;
+    color: white;
+    width: 100%;
+    height: 300px;
+}
+
+.banner {
+    text-align: center;
+    padding: 40px;
+    color: white;
+    font-size: 25px;
+}
+
+.footer-grupo {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+}
+
+.footer-texto a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#central:hover {
+    color: #0088cc;
+}
+
+#perguntas:hover {
+    color: #0088cc;
+}
+
+.logo {
+    position: absolute;
+    margin-top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 130px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.social {
+    position: absolute;
+    top: 1600px;
+    right: 90px;
+    display: flex;
+    gap: 10px;
+}
+
+.social img {
+    width: 70px;
+    margin: 0 10px;
+}
+
+h1, h2, div {
+    font-family: inter;
+}
+
+p {
+    font-family: inter;
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+  
+    #logo {
+        width: 150px;
+        height: auto;
+        margin: 0 auto;
+    }
+  
+    .navegation {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        gap: 10px;
+    }
+  
+    .login {
+        margin-left: 0;
+        width: 100px;
+        height: 35px;
+    }
+  
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+  
+    .footer-container {
+        align-items: center;
+    }
+  
+    .banner {
+        font-size: 18px;
+        margin: 20px 0;
+        visibility: hidden;
+    }
+  
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+  
+    .social {
+        position: static;
+        margin-top: 20px;
+        justify-content: center;
+    }
+  
+    .social img {
+        width: 40px;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .navegation a {
+        font-size: 0.9rem;
+    }
+  
+    .login {
+        width: 80px;
+        font-size: 0.9rem;
+    }
+  
+    .integrante p {
+        font-size: 1.2rem;
+    }
+  
+    .footer-links {
+        gap: 5px;
+    }
+  
+    .social img {
+        width: 30px;
+    }
+  }
+  

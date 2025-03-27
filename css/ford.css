@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.navbar{
+    width: 100%;
+}
+#logo{
+    width: 190px;
+    height: 80px;
+    display: flex;
+    margin-right: 50px;
+    justify-content: start;
+    align-items: center;
+}
+#logo img{
+    width: 70%;
+    height: 70%;
+    margin-left: 70px;
+    cursor: pointer;
+} 
+.navegation{
+    width: 70%;
+    margin: auto;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navegation a{
+    color: #003334;
+}
+.login{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    background-color: #00BFFF;
+    text-align: center;
+    margin-left: 100px  ;
+}
+.login a{
+    color: white;
+}
+  
+/* VIDEO E FOTO DO CARRO */
+
+.car-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.video-container {
+    flex: 1;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.video-container video {
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+    display: block;
+}
+
+/* VOLVO EX90 */
+
+.car-name {
+    text-align: center;
+    font-size: 52px;
+    color: black;
+    background-color: #f4f4f4;
+}
+
+/* INFO DO CARRO */
+
+.car-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    font-size: 36px;
+    color:black;
+    margin-left:14px;
+}
+
+.car-front-photo img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    margin-top:82px;
+    margin-right:20px;
+}
+
+.car-specs {
+    flex: 1;
+    margin-top:40px;
+}
+
+/* BOTÃO RESERVE */
+
+.reserve-button {
+    text-align: center;
+    margin-top:-65px;
+}
+
+.reserve-button img {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.reserve-button img:hover {
+    transform: scale(1.05);
+}
+
+/* QUADRADO PRETO */
+
+.extra-info {
+    background-color: black;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    align-items: center;
+    font-size:22px;
+}
+
+.extra-info .extra-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+}
+
+.extra-info img {
+    width: 45%;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin: 10px;
+    align-items: center;
+}
+
+.extra-content p {
+    flex: 1;
+    padding: 0 2rem;
+    align-items: center;
+    margin: 6px;
+    text-align: center;
+    top: 200px;
+    box-sizing: border-box;
+    margin-bottom: -350px;
+}
+
+/* OUTRO TITULO */
+
+.titulo-2 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 38px;
+    color: black;
+}
+
+.car-additional-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.additional-photo img,
+.additional-photo video {
+    height: auto;
+    border-radius: 10px;
+}
+
+/* TAMANHO IMAGEM 1 */
+
+.image-1 {
+    width: 100%;
+    max-width: 2200px; 
+}
+
+/* TENTATIVA CARROSSEL */
+
+.car-carousel-container {
+    position: relative;
+    width: 70%; 
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.car-carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-slide {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.carousel-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.left {
+    left: 10px;
+}
+
+.right {
+    right: 10px;
+}
+
+.carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* TENTATIVA CARROSSEL */
+
+/* TENTATIVA 3D */
+
+#sketch-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    position: relative; 
+}
+
+#sketch1 {
+    width: 750px;
+    height: 520px;
+    transition: all 5s linear;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+}
+
+#buttonfeboff {
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* TENTATIVA 3D */
+
+/* FOOTER */
+
+footer {
+    background-color: #1E1E1E;
+    color: white;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .banner {
+    text-align: center;
+    padding: 40px;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .footer-grupo {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+  }
+  
+  .footer-texto a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #central:hover{
+    color: #0088cc;
+  }
+  
+  #perguntas:hover {
+    color: #0088cc;
+  }
+  
+  .logo {
+    position: absolute;
+    margin-top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 130px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  
+  .social {
+    position: absolute;
+    top: 4272px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+  }
+
+  @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    #logo img {
+        width: 60%;
+        height: auto;
+    }
+
+    .navegation {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .login {
+        margin-left: 0;
+        width: 60%;
+        height: 40px;
+    }
+
+    .car-name {
+        font-size: 28px;
+    }
+
+    .car-info {
+        flex-direction: column;
+        font-size: 28px;
+        padding: 1rem;
+    }
+
+    .car-front-photo img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .car-specs {
+        margin-top: 20px;
+    }
+
+    .reserve-button img {
+        width: 80%;
+    }
+
+    .extra-info .extra-content {
+        flex-direction: column;
+    }
+
+    .extra-info img {
+        width: 100%;
+    }
+
+    .social {
+        position: relative;
+        top: auto;
+        left: auto;
+        bottom: 20px;
+        justify-content: center;
+    }
+}

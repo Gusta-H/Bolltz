@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    align-items: center;
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.navbar{
+    width: 100%;
+}
+#logo{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    margin-right: 50px;
+    justify-content: start;
+    align-items: center;
+}
+#logo img{
+    width: 70%;
+    height: 70%;
+    margin-left: 70px;
+    cursor: pointer;
+} 
+.navegation{
+    width: 70%;
+    margin: auto;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navegation a{
+    color: #003334;
+}
+.login{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    background-color: #00BFFF;
+    text-align: center;
+    color: white;
+    margin-left: 100px  ;
+}
+.login a{
+    color: white;
+}
+.destaque{
+    width: 100%;
+    height: 600px;
+}
+.destaque
+#car{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 900px;
+    height: 600px;
+    margin-left: 450px;
+
+}
+#car img{
+    position: relative;
+    width: 100%;
+    margin-left: 280px;
+    top: -50px;
+}
+.titulo{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 45px;
+    padding: 15px;
+}
+.texto-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-left: 190px;
+    float: left;
+    font-size: 26px;
+}
+.texto-titulo img{
+    margin-top: 10px;
+    float: left;
+}
+.subtitulo{
+    font-size: 22px;
+    align-items: center;
+    margin-left: 25px;
+}
+.texto-titulo img{
+    width: 25px;
+    height: 25px;
+    margin-top: -25px;
+    margin-left: -5px;
+}
+#caixinhas{
+    position: relative;
+    width: 560px;
+    height: 300px;
+    top: -450px;
+    margin-left: 50px;
+    color: #00BFFF;
+    font-weight: bold;
+    font-size: 28px;
+}
+.t1{
+    position: relative;
+    width: 150px;
+    height: 30px;
+    margin-left: 50px;
+    top: 60px;
+    float: left;
+    font-size: 26px;
+}
+.t2{
+    position: relative;
+    width: 80px;
+    height: 30px;
+    top: 60px;
+    margin-left: 50px;
+    float: left;
+}
+.t3{
+    position: relative;
+    width: 350px;
+    height: 30px;
+    margin-top: 90px;
+    margin-left: 50px;
+    clear: left;
+    top: 150px;
+}
+#caixinhas2{
+    position: relative;
+    width: 590px;
+    height: 700px;
+    top: -750px;
+    margin-left: 50px;
+    color: #003334;
+    font-size: 16px;
+}
+.p1{
+    position: relative;
+    width: 150px;
+    height: 30px;
+    margin-left: 50px;
+    top: 90px;
+    float: left;
+}
+.p2{
+    position: relative;
+    width: 220px;
+    height: 30px;
+    top: 65px;
+    margin-left: 250px;
+    float: left;
+}
+.p3{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-top: 250px;
+    margin-left: 50px;
+    clear: left;
+    top: 160px;
+}
+.cardabaixo{
+    width: 100%;
+    height: 600px;
+}
+#carro{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 680px;
+    height: 600px;
+    margin-left: 550px;
+
+}
+#carro img{
+    position: relative;
+    width: 100%;
+    margin-left: -560px;
+    top: -50px;
+}
+.paragrafo{
+    position: relative;
+    width: 450px;
+    top: -590px;
+    margin-left: 750px;
+    font-size: 26px;
+    color: #003334;
+    text-align: center;
+}
+.titulo-carro{
+    position: relative;
+    width: 350px;
+    top: -600px;
+    margin-left: 790px;
+    font-size: 36px;
+    color:#00BFFF;
+    text-align: center;
+}
+#icone{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.icone1 img{
+  position: relative;
+  width: 100%;
+  height:100px;
+  float: left;
+}
+.icone2 img{
+  position: relative;
+  width: 100%;
+  height:100px;
+  float: left;
+}
+.icone3 img{
+  position: relative;
+  width: 100%;
+  height:100px;
+  float: left;
+}
+.icone4 img{
+  position: relative;
+  width: 100%;
+  height:100px;
+  float: left;
+}
+.te1{
+  position: relative;
+  width: 10px;
+  margin-left: 115px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #003334;
+  clear: left;
+}
+.pe1{
+  position: relative;
+  width: 190px;
+  margin-left: 80px;
+  padding: 2px;
+  box-sizing: border-box;
+  color: #1E1E1E;
+  font-size: 20px;
+  text-align: center;
+}
+.te2{
+  position: relative;
+  width: 10px;
+  margin-left: 440px;
+  margin-top: -200px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #003334;
+  clear: left;
+}
+.pe2{
+  position: relative;
+  width: 290px;
+  margin-left: 380px;
+  padding: 2px;
+  box-sizing: border-box;
+  color: #1E1E1E;
+  font-size: 20px;
+  text-align: center;
+}
+.te3{
+  position: relative;
+  width: 10px;
+  margin-left: 800px;
+  margin-top: -230px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #003334;
+  clear: left;
+}
+.pe3{
+  position: relative;
+  width: 290px;
+  margin-left: 730px;
+  padding: 2px;
+  box-sizing: border-box;
+  color: #1E1E1E;
+  font-size: 20px;
+  text-align: center;
+}
+.te4{
+  position: relative;
+  width: 10px;
+  margin-left: 1140px;
+  margin-top: -160px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #003334;
+  clear: left;
+  
+}
+.pe4{
+  position: relative;
+  width: 200px;
+  margin-left: 1110px;
+  padding: 2px;
+  box-sizing: border-box;
+  color: #1E1E1E;
+  font-size: 20px;
+  text-align: center;
+
+}
+footer {
+  background-color: #1E1E1E;
+  color: white;
+  width: 100%;
+  height: 300px;
+}
+
+.banner {
+  text-align: center;
+  padding: 40px;
+  color: white;
+  font-size: 25px;
+}
+
+.footer-grupo {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 20px;
+}
+
+.footer-texto a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#central:hover{
+  color: #0088cc;
+}
+
+#perguntas:hover {
+  color: #0088cc;
+}
+
+.logo {
+  position: absolute;
+  margin-top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 130px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.social {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 2360px;
+  right: 180px;
+  display: flex;
+  gap: 10px;
+}
+#bg{
+  margin-top: 150px;
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  background-color: #00BFFF;
+  padding: 0px 0px 15px 0px;
+  object-fit: cover;
+}

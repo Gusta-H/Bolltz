@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    background-color: #f4f4f4;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  #logo{
+    width: 150px;
+    height: 80px;
+    display: flex;
+    margin-right: 50px;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  #logo img{
+    width: 50%;
+    height: 50%;
+    cursor: pointer;
+  }
+  
+  .navegation{
+    width: 650px;
+    margin: auto;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+  }
+  
+  .navegation a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: normal;
+  }
+
+  .navegation button{
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: #00BFFF;
+    border: none;
+    color: white;
+  }
+
+
+.search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width:0;
+    border: 2px solid dimgray;
+    margin-left: 240px;
+    margin-top: -60px;
+    border-radius: 40px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.search-bar img{
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    margin-left: -5px;
+}
+
+.search-bar input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: #000;
+    font-family: 16px;
+    font-weight: 400px;
+    background-color: transparent;
+    color:black;
+}
+
+.search-bar i{
+    cursor: pointer;
+    font-size: 25px;
+    color: aqua;
+}
+
+.search-bar:hover{
+    width: 400px;
+}
+
+#modelos{
+ 
+    width: 700px;
+    margin-top: 90px;
+    margin-left:400px;
+    font-family: 'Inter', sans-serif;   
+}
+
+
+#caixa{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;  
+}
+
+#caixa_container{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+
+
+#carros{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #f4f4f4;
+    margin-top: 40px;
+}
+
+#caixa_container{
+    position: relative;
+    width: 96%;
+    height: 400px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -60px;
+  
+}
+
+.volvo{
+    position: relative;
+    width: 25%;
+    height:450px;
+    background-color:white;
+    margin-top: 50px;
+    border-radius: 25px;
+    text-align:center ;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f4;
+    
+}
+
+.volvo h3{
+    margin-left: 145px;
+    margin-top: -43px;  
+    color: #0088cc;
+
+}
+
+
+
+.dolphin{
+    position: relative;
+    width: 25%;
+    height:450px;
+    background-color:white;
+    margin-top: 50px;
+    border-radius: 35px;
+    text-align:center ;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f4;
+
+}
+
+.dolphin h3{
+    margin-left: 130px;
+    margin-top: -43px;  
+    color: #0088cc;
+}
+
+.xiaomi{
+    position: relative;
+    width: 25%;
+    height:450px;
+    background-color:white;
+    margin-top: 50px;
+    border-radius: 35px;
+    text-align:center ;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f4;
+
+}
+
+.xiaomi h3{
+    margin-left: 140px;
+    margin-top: -43px;  
+    color: #0088cc;
+}
+
+.mustang{
+    position: relative;
+    width: 25%;
+    height:400px;
+    background-color:white;
+    margin-top: 50px;
+    border-radius: 35px;
+    text-align:center ;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f4;
+
+}
+
+.mustang h3{
+    margin-left: 140px;
+    margin-top: -43px;  
+    color: #0088cc;
+}
+
+.sion{
+    position: relative;
+    width: 25%;
+    height:400px;
+    background-color:white;
+    margin-top: 50px;
+    border-radius: 35px;
+    text-align:center ;
+    margin-left: -30px;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f4;
+
+}
+
+.sion h3{
+    margin-left: 145px;
+    margin-top: -43px;  
+    color: #0088cc;
+}
+
+.desenvolvimento{
+    position: relative;
+    width: 25%;
+    height:400px;
+    background-color:white;
+    margin-top: 50px;
+    border-radius: 35px;
+    text-align:center ;
+    background-color: #f4f4f4;
+    
+}
+
+
+.loading span{
+    width: 10px;
+    height: 10px ;
+    border-radius: 50px;
+    margin: 5px;
+    display: inline-block;
+    background-color: #000;
+
+}
+
+.loading span{
+    animation: carregar 0.6s cubic-bezier(0.6, 0.1, 1, 0.4);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.loading span:nth-child(2){
+    animation-delay: 0.2s ;
+}
+
+.loading span:nth-child(1){
+    animation-delay: 0.1s ;
+}
+
+.loading span:nth-child(3){
+    animation-delay: 0.3s ;
+}
+
+@keyframes carregar{
+    to{
+        transform: translateY(50px);
+    }
+}
+
+
+
+.volvo .volvofrente {
+    height: 200px;
+    width: 350px;
+    margin-left: -10px;
+    margin-top: -30px;
+    position: relative;  
+    
+}
+
+.volvofrente:hover{
+    content: url('../imagem/volvo_tras.png');
+}
+
+.volvo h1{
+    margin-top: 50px;
+
+}
+
+
+.dolphin .dolphinlado{
+    height: 210px;
+    width: 310px;
+    margin-top: -20px;
+ 
+}
+
+
+.dolphinlado:hover{
+    content: url('../imagem/dolphin-tras-1-1.png');
+    height: 210px;
+    width: 310px;
+    box-sizing: border-box;
+  
+
+}
+
+
+.xiaomi .xiaomitras{
+    height: 200px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: -10px;
+    transition: opacity 0.10s ease-in-out;
+    
+
+}
+
+.xiaomitras:hover{
+    content: url('../imagem/xiaomi_costas.png');
+    transition: opacity 1s ease-in-out;
+
+}
+
+
+.mustang .mustanglado{
+    height: 200px;
+    width: 300px;
+    margin-left: 5px;
+}
+
+.mustanglado:hover{
+    content: url('../imagem/mustang-tras.png');
+}
+
+
+
+
+.sion .sionlado{
+    height: 160px;
+    width: 310px;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding: 20px;
+}
+
+.sionlado:hover{
+    content: url('../imagem/sono-tras.png');
+  
+
+}
+
+.desenvolvimento{
+    height: 400px;
+    width: 351px;
+    margin-left: -30px;
+    
+}
+
+.desenvolvimento h1{
+    margin-top: 130px;
+    font-family: 'Inter', sans-serif;
+  
+}
+
+
+.descricao2{
+    margin-top: -20px;
+    text-align: start;
+}
+
+.preco2{
+    text-align: start;
+    margin-top: 20px;
+}
+
+.explorar2 button{
+    border: 2px solid #0088cc;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 8px;
+    margin-top: 8px;
+    width: 340px;
+    margin-left: -5px;
+}
+
+
+.descricao{
+    text-align: start;
+}
+
+.preco{
+    text-align: start;
+}
+
+.descricao1{
+    margin-top: 20px;
+    text-align: start;
+}
+
+.preco1{
+    margin-top: -30px;
+    text-align: start;
+}
+
+.explorar1 button{
+    border: 2px solid #0088cc;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 8px;
+    width: 340px;
+    margin-left: -10px;
+
+}
+
+.explorar1 h1{
+    margin-top: 15px;
+}
+
+.explorar button{
+    border: 2px solid #0088cc;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    width: 340px;
+    margin-left: -10px;
+
+}
+
+@keyframes anima{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+button:hover{
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+footer {
+    background-color: #1E1E1E;
+    color: white;
+    width: 100%;
+    height: 300px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .banner {
+    text-align: center;
+    padding: 40px;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .footer-grupo {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+  }
+  
+  .footer-texto a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #central:hover{
+    color: #0088cc;
+  }
+  
+  #perguntas:hover {
+    color: #0088cc;
+  }
+  
+  .logo {
+    position: absolute;
+    margin-top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 130px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  
+  .social {
+    position: absolute;
+    top: 1240px;
+    right: 50px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .social img{
+    height: 45px;
+    width: 45px;
+  }
+
+
+/* Mobile Responsivo */
+@media (max-width: 768px) {
+    #navegacao {
+        display: none; /* Ocultar navegação em dispositivos menores */
+    }
+
+    .search-bar {
+        width: 80%;
+        margin-left: 20px;
+        margin-top:px;
+    }
+
+    .search-bar img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #modelos {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #caixa_container {
+        flex-direction: column; /* Coloca os cards em coluna */
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .volvo,
+    .dolphin,
+    .xiaomi,
+    .mustang,
+    .sion,
+    .desenvolvimento {
+        width: 80%; /* Reduz o tamanho dos cards */
+        margin-bottom: 20px;
+    }
+
+    .volvo .volvofrente,
+    .dolphin .dolphinlado,
+    .xiaomi .xiaomitras,
+    .mustang .mustanglado,
+    .sion .sionlado {
+        width: 250px; /* Ajusta a largura das imagens */
+        height: 150px;
+        margin-top: -10px;
+    }
+
+    footer {
+        height: auto;
+        padding: 20px;
+    }
+
+    .footer-grupo {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-texto a {
+        margin-bottom: 10px;
+    }
+
+    .social {
+        position: relative;
+        top: auto;
+        right: auto;
+        display: flex;
+        gap: 15px;
+    }
+}
+

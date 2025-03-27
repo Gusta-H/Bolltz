@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XIAOMI | SU7</title>
+  <link rel="stylesheet" href="css/xiaomi.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div id="logo">
+        <img src="imagem/LOGO-BOLTZ.png" />
+    </div>
+    <nav class="navbar">
+      <div class="navegation">
+        <a href="index.html">Inicio</a>
+        <a href="uc2-frota.html">Frota</a>
+        <a href="diferencial.html">Diferencial</a>
+        <a href="pontosCarregamento.html">Carregamento</a>
+        <a href="recicle.html">Descarte de bateria</a>
+        <a href="sobre.html">sobre</a>
+        <div class="login"><a href="usuario.html">Usuário</a></div>
+        </div>
+    </nav>
+</header>
+
+  <!-- VIDEO E FOTO DO CARRO -->
+  <section class="car-details">
+    <div class="video-container">
+      <video controls>
+        <source src="imagem/xiaomi.mp4" type="video/mp4">
+        Seu navegador não suporta o formato de vídeo.
+      </video>
+    </div>
+  </section>
+
+  <h1 class="car-name">XIAOMI SU7</h1>
+
+  <!-- INFORMAÇÕES CURTAS -->
+  <section class="car-info">
+    <div class="car-front-photo">
+      <img src="imagem/frente.png" alt="Foto frontal do carro">
+    </div>
+
+    <div class="car-specs">
+        <h1>5.3 s</h1>
+        <h6>Aceleração de 0 - 100 km/h</h6>
+        <h1>275 kw / 299 hp</h1>
+        <h6>Potência Overboost com Controle de largada até (kW)</h6>
+        <h1>700 km</h1>
+        <h6>Autonomia elétrica (Inmetro)</h6>
+        <h1>42 min</h1>
+        <h6>Estimativa de tempo de carregamento rápido DC (10-80%)</h6>
+    </div>
+  </section>
+
+  <!-- BOTÃO RESERVE -->
+  <div class="reserve-button">
+    <a href="">
+      <img src="imagem/botao-removebg-preview.png" alt="Reserve">
+    </a>
+  </div>
+  
+  <!-- QUADRO PRETO IMAGENS -->
+  <section class="extra-info">
+    <div class="extra-content">
+      <img src="imagem/mi1.webp" alt="Imagem extra 1">
+      <p>O Xiaomi SU7 é um SUV elétrico que une inovação, desempenho e design moderno. Com um visual arrojado e tecnologias avançadas, oferece uma condução dinâmica e eficiente, destacando-se pela autonomia impressionante. Equipado com recursos de conectividade e assistentes inteligentes, proporciona uma experiência de direção intuitiva e personalizada. Focado em sustentabilidade e desempenho, o SU7 reflete o compromisso da Xiaomi com a mobilidade elétrica, oferecendo uma opção moderna e acessível para quem busca um futuro mais verde.</p>
+      <img src="imagem/mi2.jpeg" alt="Imagem extra 2">
+    </div>
+  </section>
+
+  <!-- OUTRO TITULO -->
+  <h1 class="titulo-2">Descubra o Xiaomi SU7 por dentro</h1>
+
+<!-- IMAGEM LOCAIS -->
+<div class="car-additional-images">
+    <div class="additional-photo">
+      <img src="imagem/locaiss.png" alt="Imagem adicional 1" class="image-1">
+
+  <!-- TENTATIVA CARROSEL -->
+
+  <div class="car-carousel-container">
+    <button class="carousel-button left" onclick="moveSlide(-1)">&#10094;</button>
+    
+    <div class="car-carousel">
+      <div class="carousel-slide">
+        <img src="imagem/2-xiaomi.png" alt="Imagem 1" class="carousel-image">
+      </div>
+      <div class="carousel-slide">
+        <img src="imagem/2-xiaomi.png" alt="Imagem 2" class="carousel-image">
+      </div>
+      <div class="carousel-slide">
+        <img src="imagem/4-xiaomi.png" alt="Imagem 3" class="carousel-image">
+      </div>
+    </div>
+    
+    <button class="carousel-button right" onclick="moveSlide(1)">&#10095;</button>
+  </div>
+  
+  <!-- TENTATIVA CARROSEL JS -->
+
+<script>
+  let currentSlideIndex = 0;
+
+  function moveSlide(direction) {
+    const slides = document.querySelectorAll('.carousel-slide');
+    const totalSlides = slides.length;
+  
+    currentSlideIndex += direction;
+  
+    if (currentSlideIndex < 0) {
+      currentSlideIndex = totalSlides - 1;
+    } else if (currentSlideIndex >= totalSlides) {
+      currentSlideIndex = 0;
+    }
+  
+    const offset = -currentSlideIndex * 100;
+    document.querySelector('.car-carousel').style.transform = `translateX(${offset}%)`;
+  }
+  
+  
+  window.onload = function() {
+    const slides = document.querySelectorAll('.carousel-slide');
+    if (slides.length > 0) {
+      setInterval(() => {
+        moveSlide(1); // Avança a cada 3 segundos
+      }, 3000);
+    }
+  };
+</script>
+
+  <!-- TENTATIVA CARROSEL JS -->
+  
+  <!-- TENTATIVA 3D -->
+
+<div id="sketch-container">
+  <div id="sketch1">
+    
+    <iframe 
+      allowfullscreen 
+      frameborder="0" 
+      height="520" 
+      src="https://sketchfab.com/3d-models/xiaomi-su7-ca2cda599f5341068c992c9f44551bf9/embed?annotation_cycle=5&autostart=1" 
+      webkitallowfullscreen 
+      mozallowfullscreen 
+      width="750">
+    </iframe>
+  </div>
+  
+  <!-- BOTÃO FINALIZAR VISU -->
+  <div class="button-container">
+    <div id="buttonfeboff" onclick="viewofF()">Finalizar Visualização</div>
+  </div>
+</div>
+
+<script>
+  function viewofF() {
+    document.getElementById('buttonfeboff').classList.remove('visible');
+    document.getElementById('sketch1').innerHTML = '<img src=""/>';
+    document.getElementById('sketch1').style.cssText = "-webkit-filter:blur(2px);";
+  }
+</script>
+
+<!-- TENTATIVA 3D JS -->
+
+<!-- TENTATIVA VIDEO INTERIOR -->
+
+
+
+<!-- TENTATIVA VIDEO INTERIOR -->
+
+  <!-- FOOTER -->
+  
+  <footer>
+    <div class="logo">
+     <img src="imagem/LOGO-BOLTZ2.png" alt="Boltz Logo">
+ </div>
+
+   <div class="banner">
+       Frota 100% elétrica, zero emissões de CO2
+   </div>
+
+   <div class="footer-grupo">
+       <div class="footer-texto">
+           <a href="#">Início</a>
+           <a href="#">Frota de carros</a>
+           <a href="#">Carregamento</a>
+       </div>
+       <div class="footer-texto">
+           <a href="#">Nosso diferencial</a>
+           <a href="#">Descarte de bateria</a>
+           <a href="#">Sobre</a>
+       </div>
+       <div class="footer-texto">
+           <a href="#">Atendimento ao cliente</a>
+           <a id="central" href="#">Central de Relacionamento</a>
+           <a id="perguntas" href="#">Perguntas frequentes</a>
+       </div>
+   </div>
+
+
+   <div class="social">
+       <img id="icon1" src="imagem/face_cinza.png" alt="">
+       <img id="icon2" src="imagem/insta_cinza.png" alt="">
+       <img id="icon3" src="imagem/twitter_cinza.png" alt="">
+   </div>
+</footer>
+
+<!-- LIBRAS -->
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+<!-- LIBRAS -->
+
+</body>
+</html>

@@ -1,0 +1,315 @@
+*{text-decoration: none;}
+header{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.navbar{
+  width: 100%;
+}
+#logo{
+  width: 190px;
+  height: 80px;
+  display: flex;
+  margin-right: 50px;
+  justify-content: start;
+  align-items: center;
+}
+#logo img{
+  width: 70%;
+  height: 70%;
+  margin-left: 70px;
+  cursor: pointer;
+} 
+.navegation{
+  width: 70%;
+  margin: auto;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navegation a{
+  color: #003334;
+}
+.login{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 80px;
+  height: 40px;
+  background-color: #00BFFF;
+  text-align: center;
+  margin-left: 100px;
+}
+.login a{
+  color: white;
+}
+
+#tituloP{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+#identificarP{
+    position: relative;
+    margin-left: 25px;
+    height: 30px;
+    width: 99%;
+    background-color: #27A3DF;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: normal;
+}
+
+.pontosP{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4%;
+}
+
+#ponto1{
+    background-image: url(../imagem/carro-eletrico.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px;
+    height: 100px;
+    width: 100px;
+    margin-left: 195px;
+}
+
+
+#ponto2{
+    background-image: url(../imagem/carregador-eletrico.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px;
+    height: 100px;
+    width: 100px;
+    margin-left: 130px;
+}
+
+#ponto3{
+    background-image: url(../imagem/carro.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90px 100px;
+    height: 90px;
+    width: 100px;
+    margin-left: 170px;
+}
+.postoConhecerP{
+    text-align: center;
+    margin:15px 15px;
+}
+
+.mapaP{
+   position: relative;
+   margin-left: 70px;
+}
+
+.valorP{
+    position: relative;
+    margin-left: 25px;
+    height: 200px;
+    width: 99%;
+    background-color: #27A3DF;
+    border-radius: 10px;
+    font-weight: normal;
+    margin: 30px;
+}
+
+#valorTabelaP{
+    text-align: center;
+    margin-right: 40px;
+    padding: 1%;
+}
+
+#valor1P{
+    margin-left: 5%;
+}
+
+.listaP{
+    display: flex;
+    gap: 1em;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.itemP{
+    width: 460px;
+    height: 480px;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.fotoP{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.paraP{
+    color: black;
+    width: 80%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+    opacity: 0;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: solid;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    
+}
+
+.itemP:hover{
+    transform: scale(1.05);
+
+}
+
+.itemP:hover .paraP{
+    opacity: 1;
+    top: 50%;
+}
+
+.listaP:hover .itemP:not(:hover){
+    filter: blur(5px);
+}
+
+footer {
+    background-color: #1E1E1E;
+    color: white;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .banner {
+    text-align: center;
+    padding: 40px;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .footer-grupo {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+  }
+  
+  .footer-texto a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #central:hover{
+    color: #0088cc;
+  }
+  
+  #perguntas:hover {
+    color: #0088cc;
+  }
+  
+  .logo {
+    position: absolute;
+    margin-top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 130px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  
+  .social {
+    position: absolute;
+    top: 1800px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+  }
+
+  h1, h2, p, div{
+    font-family: inter;
+  }
+
+  @font-face{
+    font-family: inter;
+    src:url(../fonte/Inter-VariableFont_opsz\,wght.ttf)
+  }
+
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+    #logo{
+        width: 35%;
+    }
+    .navegation{
+      width: 85%;
+      flex-wrap: wrap;
+      padding: 18px;
+    }
+
+    .login{
+      align-items: center;
+      right: 35px;
+    }
+
+    .pontosP, .listaP {
+        width: 80%;
+        margin: 20px auto;
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #ponto1, #ponto2, #ponto3{
+        display: none;
+    }
+
+    .mapaP{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left: 5px;
+    }
+
+    .social{
+      display: none;
+    }
+
+    .banner{
+      font-size: 19px;
+      margin-left: 60px;
+    }
+}
+
+
+
