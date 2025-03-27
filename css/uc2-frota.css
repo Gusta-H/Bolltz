@@ -24,8 +24,8 @@ header{
   }
   
   #logo{
-    width: 150px;
-    height: 80px;
+    width: 220px;
+    height: 100px;
     display: flex;
     margin-right: 50px;
     justify-content: start;
@@ -176,8 +176,6 @@ header{
     color: #0088cc;
 
 }
-
-
 
 .dolphin{
     position: relative;
@@ -422,6 +420,7 @@ header{
     margin-top: 8px;
     width: 340px;
     margin-left: -5px;
+    text-decoration: none;
 }
 
 
@@ -454,11 +453,12 @@ header{
     border-radius: 8px;
     width: 340px;
     margin-left: -10px;
-
+    text-decoration: none;
 }
 
 .explorar1 h1{
     margin-top: 15px;
+    text-decoration: none;
 }
 
 .explorar button{
@@ -471,7 +471,7 @@ header{
     border-radius: 8px;
     width: 340px;
     margin-left: -10px;
-
+    text-decoration: none;
 }
 
 @keyframes anima{
