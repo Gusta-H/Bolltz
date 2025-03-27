@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/aluguel.css">
+  <title>Boltz</title>
+  <script src="js/aluguel.js"></script>
+</head>
+
+<body>
+  <main>
+    <header>
+      <div id="logo">
+          <img src="img/LOGO-BOLTZ.png" />
+      </div>
+      <nav class="navbar">
+          <div class="navegation">
+          <a href="#">Inicio</a>
+          <a href="#">Frota</a>
+          <a href="#">Diferencial</a>
+          <a href="#">Carregamento</a>
+          <a href="#">Descarte de bateria</a>
+          <a href="#">sobre</a>
+          <div class="login"><a href="#">Usuário</a></div>
+          </div>
+      </nav>
+  </header>
+    <div class="conteudo">
+
+      <div class="secao-carro">
+        <div class="container-imagem-carro">
+          <img src="img/byd_preto.png" alt="Byd Dolphin" class="imagem-carro">
+        </div>
+        <div class="info-carro">
+          <div class="tipo-carro">hatch</div>
+          <div class="nome-carro">Byd Dolphin</div>
+        </div>
+      </div>
+
+      <div class="cartao-aluguel">
+
+        <div class="secao">
+          <div class="titulo-retirada">Retirada</div>
+          <div class="dados-secao">16 de março de 2025 às 13h</div>
+          <div class="dados-secao">São Paulo - Guarulhos Aeroporto</div>
+        </div>
+
+        <div class="secao">
+          <div class="titulo-devolucao">Devolução</div>
+          <div class="dados-secao">17 de março de 2025 às 13h</div>
+          <div class="dados-secao">São Paulo - Guarulhos Aeroporto</div>
+        </div>
+
+        <div class="secao">
+          <div class="titulo-diaria">Diária</div>
+          <div class="linha">
+            <div class="coluna">Diária</div>
+            <div class="coluna-direita">Total</div>
+          </div>
+          <div class="linha">
+            <div class="coluna">1x R$ 498,90</div>
+            <div class="coluna-direita">R$ 498,90</div>
+          </div>
+        </div>
+
+        <div class="secao">
+          <div class="titulo-protecao">Proteção</div>
+          <div class="linha">
+            <div class="coluna">Básica</div>
+            <div class="coluna-direita">R$ 150,00</div>
+          </div>
+        </div>
+
+        <div class="secao">
+          <div class="linha">
+            <div class="coluna">Taxa fixa de locação (14%)</div>
+            <div class="coluna-direita">R$ 69,84</div>
+          </div>
+        </div>
+
+        <div class="secao-total">
+          <div class="coluna-total">
+            <div class="rotulo-total">Valor total previsto</div>
+            <div class="valor-total">R$ 676,74</div>
+          </div>
+          <button class="botao-confirmar" onclick="showModal()">Confirmar</button>
+        </div>
+
+        <div class="secao-autorizacao">
+          <div class="titulo-autorizacao">Pré-autorização no cartão</div>
+          <div class="linha">
+            <div class="coluna">Valor da pré-autorização</div>
+            <div class="coluna-direita">R$ 1000,00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="secao-protecoes">
+        <h2>Proteções</h2>
+        <p>Escolha uma proteção para o seu aluguel: (opcional)</p>
+
+        <div class="cartoes-protecao">
+
+          <div class="cartao-protecao">
+            <div class="cabecalho-protecao">
+              <h3>Básica</h3>
+              <div class="preco-protecao">R$ 150,00/dia</div>
+            </div>
+            <div class="recursos-protecao">
+              <div class="recurso-protecao">Proteção contra roubo</div>
+              <div class="recurso-protecao">Proteção contra furto</div>
+              <div class="recurso-protecao">Proteção contra incêndio</div>
+              <div class="recurso-protecao">Perda total do veículo</div>
+              <div class="recurso-protecao">Danos e/ou avarias causados por colisões e/ou eventos aleatórios</div>
+            </div>
+            <button class="botao-selecionar">selecionar</button>
+          </div>
+
+
+          <div class="cartao-protecao">
+            <div class="cabecalho-protecao">
+              <h3>Padrão</h3>
+              <div class="preco-protecao">R$ 200,00/dia</div>
+            </div>
+            <div class="recursos-protecao">
+              <div class="recurso-protecao">Proteção contra roubo</div>
+              <div class="recurso-protecao">Proteção contra furto</div>
+              <div class="recurso-protecao">Proteção contra incêndio</div>
+              <div class="recurso-protecao">Perda total do veículo</div>
+              <div class="recurso-protecao">Danos e/ou avarias causados por colisões e/ou eventos aleatórios</div>
+              <div class="recurso-protecao">Proteção contra terceiros</div>
+            </div>
+            <button class="botao-selecionar">Selecionar</button>
+          </div>
+
+          <div class="cartao-protecao">
+            <div class="cabecalho-protecao">
+              <h3>Completo</h3>
+              <div class="preco-protecao">R$ 250,00/dia</div>
+            </div>
+            <div class="recursos-protecao">
+              <div class="recurso-protecao">Proteção contra roubo</div>
+              <div class="recurso-protecao">Proteção contra furto</div>
+              <div class="recurso-protecao">Proteção contra incêndio</div>
+              <div class="recurso-protecao">Perda total do veículo</div>
+              <div class="recurso-protecao">Danos e/ou avarias causados por colisões e/ou eventos aleatórios</div>
+              <div class="recurso-protecao">Danos a vidros e pneus</div>
+              <div class="recurso-protecao">Proteção contra terceiros</div>
+            </div>
+            <button class="botao-selecionar">Selecionar</button>
+          </div>
+        </div>
+      
+      <div class="secao-cores">
+        <h2>Cores disponíveis</h2>
+        <div class="opcoes-cores">
+          <div class="opcao-cor">
+            <img src="img/byd_azul.png" id="azul" alt="Byd Dolphin Azul" class="imagem-cor">
+          </div>
+          <div class="opcao-cor">
+            <img src="img/byd_bronze.png" id="bronze" alt="Byd Dolphin Bronze" class="imagem-cor">
+          </div>
+          <div class="opcao-cor">
+            <img src="img/byd_preto.png" id="preto" alt="Byd Dolphin Cinza" class="imagem-cor">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </main>
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <h3>Formulario de Pagamento</h3>
+      <div class="dados-pessoais">
+        <h2>Dados Pessoais</h2>
+        <form action="">
+          <div class="campo">
+            <label for="nome">Nome completo</label>
+            <input type="text" name="nome" id="nome" required>
+          </div>
+          <div class="campo">
+            <label for="cpf">CPF</label>
+            <input type="text" name="cpf" id="cpf" required>
+          </div>
+          <div class="campo">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+          </div>
+          <div class="campo">
+            <label for="tel">Telefone</label>
+            <input type="tel" name="tel" id="tel">
+          </div>
+
+         <h2>Informações adicionais</h2>
+
+         <div class="check">
+          <label id="hora">Na data e hora da retirada você chega por voo?</label>
+          <label for="">
+            <input type="radio" name="adicionais" value="sim">Sim
+          </label>
+            <label for="">
+              <input type="radio" name="adicionais" value="nao">Não
+            </label>
+            <label id="hora"for="">Companhia aérea</label>
+            <select name="" id="voo">
+              <option selected disabled value="">Selecione</option>
+              <option value="">Aerolineas Argentina</option>
+              <option value="">Aeromexico</option>
+              <option value="">Air Canada</option>
+              <option value="">Air China</option>
+              <option value="">Air Europa</option>
+              <option value="">Air France</option>
+              <option value="">AZUL</option>
+              <option value="">BoA</option>
+              <option value="">Condor</option>
+              <option value="">Delta</option>
+              <option value="">Emirates</option>
+            </select>
+            <div class="numero">
+              <label for="numero">Número do voo</label>
+              <input type="text" name="numero" id="numero" required>
+            </div>
+          </div>
+          <div class="pagamento">
+            <label id="opcoes">Opções de pagamento</label>
+            <a href="#"><img src="img/cartao.png" alt="" width="200px"></a>
+            <a href="#"><img src="img/dinheiro.png" alt="" width="200px"></a>
+
+            <h2>Dados do Cartão</h2>
+            <div class="credito">
+                <div class="cartao">
+                    <input type="text" placeholder="Número do cartão">
+                    <input type="text" placeholder="Validade">
+                    <input type="text" placeholder="Nome do titular">
+                    <input type="text" placeholder="CVV">
+                </div>
+            </div>
+            <div class="termos">
+              <label>
+                  <input type="checkbox"> Estou ciente e de acordo com os termos e condições do pré pagamento.
+              </label>
+              <div class="botao-formulario">
+              <a href="#">
+              <button type="button" class="reserva" onclick="window.location.href='usuario.html'">Reservar</button>
+              <button type="button" class="voltar" onclick="window.location.href='aluguel.html'">Voltar</button>
+            </div>
+              
+          </div>
+       </form>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+     <div class="logo">
+      <img src="img/LOGO-BOLTZ2.png" alt="Boltz Logo">
+  </div>
+
+    <div class="banner">
+        Frota 100% elétrica, zero emissões de CO2
+    </div>
+
+    <div class="footer-grupo">
+        <div class="footer-texto">
+            <a href="#">Início</a>
+            <a href="#">Frota de carros</a>
+            <a href="#">Carregamento</a>
+        </div>
+        <div class="footer-texto">
+            <a href="#">Nosso diferencial</a>
+            <a href="#">Descarte de bateria</a>
+            <a href="#">Sobre</a>
+        </div>
+        <div class="footer-texto">
+            <a href="#">Atendimento ao cliente</a>
+            <a id="central" href="#">Central de Relacionamento</a>
+            <a id="perguntas" href="#">Perguntas frequentes</a>
+        </div>
+    </div>
+
+    <div class="social">
+        <img id="icon1" src="img/face_cinza.png" alt="">
+        <img id="icon2" src="img/insta_cinza.png" alt="">
+        <img id="icon3" src="img/twitter_cinza.png" alt="">
+    </div>
+</footer>
+  </div>
+</body>
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+  <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+</div>
+</html>
