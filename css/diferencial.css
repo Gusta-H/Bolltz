@@ -62,6 +62,8 @@ header{
     flex-direction: column;
     text-align: center;
     background: -webkit-gradient(linear, left top, right top, from(#00CCCB), to(#278d8b));
+    color: #fafafa;
+    font-size: 20px;
 }
 
 #direitaD{
@@ -91,6 +93,8 @@ header{
     flex-direction: column;
     text-align: center;
     background: -webkit-gradient(linear, left top, right top, from(#00CCCB), to(#278d8b));
+    color: #fafafa;
+    font-size: 25px;
 }
 
 #esquerdaTD{
@@ -120,6 +124,8 @@ header{
     flex-direction: column;
     text-align: center;
     background: -webkit-gradient(linear, left top, right top, from(#00CCCB), to(#278d8b));
+    color: #fafafa;
+    font-size: 25px;
 }
 
 #direitaD{
