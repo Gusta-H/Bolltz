@@ -58,7 +58,7 @@ header{
 
 .direitaD1{
     position: relative;
-    width: 85%;
+    width: 1300px;
     height: 300px;
     margin: 30px 250px;
     border-radius: 20px;
@@ -81,8 +81,9 @@ header{
 
 #autonomaD{
     position: absolute;
-    margin-top: -64%;
+    z-index: 1;
     margin-left: 150px;
+    margin-top: 50px;
     height: 250px;
     width: 400px;
 }
@@ -112,10 +113,11 @@ header{
 
 #solarD{
     position: absolute;
-    margin-top: -44%;
+    z-index: 1;
     margin-left: 850px;
     height: 250px;
     width: 400px;
+    margin-top: 30px;
 }
 
 .direitaD2{
@@ -141,10 +143,10 @@ header{
   margin-right: 150px;
 }
 
-
 #eletricoD{
     position: absolute;
-    margin-top: -22%;
+    z-index: 1;
+    margin-top: 20px;
     margin-left: 150px;
     height: 250px;
     width: 400px;
