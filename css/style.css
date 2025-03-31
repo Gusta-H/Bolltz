@@ -15,14 +15,13 @@ body{
 main{
     width: 100%;
 }
-header{
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
 }
+
 .navbar{
     width: 100%;
 }
@@ -226,13 +225,16 @@ header{
     color:#00BFFF;
     text-align: center;
 }
-#icone{
-  width: 100%;
-  height: 100px;
+#icone {
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
 }
+.icone img {
+  width: auto;
+  max-width: 100px;
+}
+
 .icone1 img{
   position: relative;
   width: 100%;
