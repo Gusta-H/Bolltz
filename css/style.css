@@ -71,18 +71,14 @@ header {
     width: 100%;
     height: 600px;
 }
-.destaque
+
 #car{
     display: flex;
-    margin: auto;
-    align-items: center;
     width: 900px;
     height: 600px;
     margin-left: 450px;
-
 }
 #car img{
-    position: relative;
     width: 100%;
     margin-left: 280px;
     top: -50px;
