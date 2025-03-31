@@ -353,10 +353,14 @@ footer {
   
   .social {
     position: absolute;
-    top: 580%;
+    margin-top: -250px;
     right: 20px;
     display: flex;
     gap: 10px;
+  }
+
+  .social img {
+    margin-right: 10px;
   }
 
   @media (max-width: 768px) {
