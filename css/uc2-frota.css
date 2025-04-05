@@ -380,7 +380,6 @@ header{
   
 }
 
-
 .descricao2{
     margin-top: -20px;
     text-align: start;
@@ -389,6 +388,25 @@ header{
 .preco2{
     text-align: start;
     margin-top: 20px;
+}
+
+.volvo a {
+    text-decoration: none;
+}
+
+.dolphin a {
+    text-decoration: none;
+}
+
+.xiaomi a {
+    text-decoration: none;
+}
+
+.mustang a {
+    text-decoration: none;
+}
+.sion a {
+    text-decoration: none;
 }
 
 .explorar2 button{
@@ -403,7 +421,6 @@ header{
     margin-top: 8px;
     width: 340px;
     margin-left: -5px;
-    text-decoration: none;
 }
 
 
