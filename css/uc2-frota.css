@@ -73,7 +73,8 @@ header{
     height: 40px;
     width:0;
     border: 2px solid dimgray;
-    margin-left: 240px;
+    padding: auto;
+    margin-left: 260px;
     margin-top: -60px;
     border-radius: 40px;
     padding: 10px 20px;
@@ -85,6 +86,7 @@ header{
     height: 60px;
     border-radius: 40px;
     margin-left: -5px;
+    padding: auto;
 }
 
 .search-bar input{
@@ -96,6 +98,7 @@ header{
     font-weight: 400px;
     background-color: transparent;
     color:black;
+    padding: auto;
 }
 
 .search-bar i{
@@ -109,13 +112,11 @@ header{
 }
 
 #modelos{
- 
     width: 700px;
     margin-top: 90px;
     margin-left:400px;
     font-family: 'Inter', sans-serif;   
 }
-
 
 #caixa{
     position: relative;
@@ -134,9 +135,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     margin-top: 15px;
-
 }
-
 
 #carros{
     position: relative;
@@ -169,14 +168,12 @@ header{
     text-align:center ;
     font-family: 'Inter', sans-serif;
     background-color: #f4f4f4;
-    
 }
 
 .volvo h3{
     margin-left: 145px;
     margin-top: -43px;  
     color: #0088cc;
-
 }
 
 .dolphin{
@@ -189,7 +186,6 @@ header{
     text-align:center ;
     font-family: 'Inter', sans-serif;
     background-color: #f4f4f4;
-
 }
 
 .dolphin h3{
@@ -208,7 +204,6 @@ header{
     text-align:center ;
     font-family: 'Inter', sans-serif;
     background-color: #f4f4f4;
-
 }
 
 .xiaomi h3{
@@ -227,7 +222,6 @@ header{
     text-align:center ;
     font-family: 'Inter', sans-serif;
     background-color: #f4f4f4;
-
 }
 
 .mustang h3{
@@ -247,7 +241,6 @@ header{
     margin-left: -30px;
     font-family: 'Inter', sans-serif;
     background-color: #f4f4f4;
-
 }
 
 .sion h3{
@@ -265,7 +258,6 @@ header{
     border-radius: 35px;
     text-align:center ;
     background-color: #f4f4f4;
-    
 }
 
 
@@ -276,7 +268,6 @@ header{
     margin: 5px;
     display: inline-block;
     background-color: #000;
-
 }
 
 .loading span{
@@ -310,8 +301,7 @@ header{
     width: 350px;
     margin-left: -10px;
     margin-top: -30px;
-    position: relative;  
-    
+    position: relative;
 }
 
 .volvofrente:hover{
@@ -320,7 +310,6 @@ header{
 
 .volvo h1{
     margin-top: 50px;
-
 }
 
 
@@ -337,8 +326,6 @@ header{
     height: 210px;
     width: 310px;
     box-sizing: border-box;
-  
-
 }
 
 
@@ -348,14 +335,11 @@ header{
     margin-left: 20px;
     margin-top: -10px;
     transition: opacity 0.10s ease-in-out;
-    
-
 }
 
 .xiaomitras:hover{
     content: url('../imagem/xiaomi_costas.png');
     transition: opacity 1s ease-in-out;
-
 }
 
 
@@ -368,9 +352,6 @@ header{
 .mustanglado:hover{
     content: url('../imagem/mustang-tras.png');
 }
-
-
-
 
 .sion .sionlado{
     height: 160px;
