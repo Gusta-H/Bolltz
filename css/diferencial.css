@@ -3,6 +3,7 @@
 body{
   width: 100%;
   height: auto;
+  overflow-x: hidden;
 }
 header{
   width: 100%;
@@ -114,7 +115,7 @@ header{
 #solarD{
     position: absolute;
     z-index: 1;
-    margin-left: 850px;
+    margin-left: 900px;
     height: 250px;
     width: 400px;
     margin-top: 30px;
@@ -146,7 +147,7 @@ header{
 #eletricoD{
     position: absolute;
     z-index: 1;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 150px;
     height: 250px;
     width: 400px;

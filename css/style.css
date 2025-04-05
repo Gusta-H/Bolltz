@@ -75,7 +75,7 @@ header {
 
 #car{
     display: flex;
-    width: 900px;
+    width:60%;
     height: 600px;
     margin-left: 450px;
 }

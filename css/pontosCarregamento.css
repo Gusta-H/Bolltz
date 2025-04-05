@@ -253,9 +253,9 @@ footer {
   }
   
   .social {
-    position: absolute;
-    top: 260%;
-    right: 80px;
+    position: relative;
+    margin-left: 85%;
+    margin-top: -200px;
     display: flex;
     gap: 10px;
   }
