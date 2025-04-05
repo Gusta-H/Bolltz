@@ -127,6 +127,7 @@ header{
 .mapaP{
    position: relative;
    margin-left: 80px;
+   align-items: center;
 }
 
 .valorP{
@@ -159,6 +160,7 @@ header{
     padding: 50px;
     font-weight: bold;
     width: 100%;
+    align-items: center;
 }
 
 .itemP{

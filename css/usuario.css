@@ -53,6 +53,7 @@
   }
   .navegation a{
     color: #003334;
+    text-decoration: none;
   }
   .login{
     position: relative;
