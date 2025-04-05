@@ -1,8 +1,13 @@
-*{text-decoration: none;}
+*{text-decoration: none;
+margin: 0;
+padding: 0;
+align-items: center;
+}
 
 body{
   width: 100%;
   height: auto;
+  overflow-x: hidden;
 }
 header{
   width: 100%;
@@ -61,8 +66,6 @@ header{
     height: 50px;
     width: 100%;
     text-align: center;
-
-
 }
 
 #identificarP{
@@ -96,7 +99,6 @@ header{
     margin-left: 44%;
 }
 
-
 #ponto2{
     background-image: url(../imagem/carregador-eletrico.png);
     background-repeat: no-repeat;
@@ -124,7 +126,7 @@ header{
 
 .mapaP{
    position: relative;
-   margin-left: 70px;
+   margin-left: 80px;
 }
 
 .valorP{
