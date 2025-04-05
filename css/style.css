@@ -74,14 +74,13 @@ header {
 
 #car{
     display: flex;
-    width: 900px;
+    width: 880px;
     height: 600px;
     margin-left: 450px;
 }
 #car img{
     width: 100%;
     margin-left: 280px;
-    top: -50px;
 }
 .titulo{
     margin-top: 70px;
