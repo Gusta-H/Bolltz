@@ -80,7 +80,7 @@ header {
     margin-left: 450px;
 }
 #car img{
-    width: 100%;
+    width: 40vw;
     margin-left: 280px;
     top: -50px;
 }
@@ -89,6 +89,7 @@ header {
     text-align: center;
     font-size: 45px;
     padding: 15px;
+    margin-top: 100px;
 }
 .texto-titulo{
     display: flex;
@@ -196,7 +197,7 @@ header {
     width: 680px;
     height: 600px;
     margin-left: 36%;
-    margin-top: 4%;
+    margin-top: 5%;
 }
 #carro img{
     position: relative;
@@ -207,7 +208,7 @@ header {
 .paragrafo{
     position: relative;
     width: 450px;
-    top: -590px;
+    top: -530px;
     margin-left: 57%;
     font-size: 26px;
     color: #003334;
@@ -216,7 +217,7 @@ header {
 .titulo-carro{
     position: relative;
     width: 350px;
-    top: -600px;
+    top: -550px;
     margin-left: 60%;
     font-size: 36px;
     color:#00BFFF;
@@ -258,8 +259,8 @@ header {
 }
 .te1{
   position: relative;
-  width: 10px;
-  margin-left: 8.5%;
+  width: 1px;
+  margin-left: 130px;
   padding: 10px;
   box-sizing: border-box;
   color: #003334;
@@ -268,7 +269,7 @@ header {
 .pe1{
   position: relative;
   width: 190px;
-  margin-left: 6.5%;
+  margin-left: 100px;
   padding: 2px;
   box-sizing: border-box;
   color: #1E1E1E;
@@ -278,7 +279,7 @@ header {
 .te2{
   position: relative;
   width: 10px;
-  margin-left: 32.5%;
+  margin-left: 500px;
   margin-top: -200px;
   padding: 10px;
   box-sizing: border-box;
@@ -288,7 +289,7 @@ header {
 .pe2{
   position: relative;
   width: 290px;
-  margin-left: 28%;
+  margin-left: 430px;
   padding: 2px;
   box-sizing: border-box;
   color: #1E1E1E;
@@ -298,7 +299,7 @@ header {
 .te3{
   position: relative;
   width: 10px;
-  margin-left: 58.5%;
+  margin-left: 900px;
   margin-top: -230px;
   padding: 10px;
   box-sizing: border-box;
@@ -308,7 +309,7 @@ header {
 .pe3{
   position: relative;
   width: 290px;
-  margin-left: 53%;
+  margin-left: 820px;
   padding: 2px;
   box-sizing: border-box;
   color: #1E1E1E;
@@ -318,7 +319,7 @@ header {
 .te4{
   position: relative;
   width: 10px;
-  margin-left: 83.5%;
+  margin-left: 1290px;
   margin-top: -160px;
   padding: 10px;
   box-sizing: border-box;
@@ -329,7 +330,7 @@ header {
 .pe4{
   position: relative;
   width: 200px;
-  margin-left: 81%;
+  margin-left: 1250px;
   padding: 2px;
   box-sizing: border-box;
   color: #1E1E1E;
