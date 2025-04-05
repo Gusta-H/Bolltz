@@ -74,13 +74,14 @@ header {
 
 #car{
     display: flex;
-    width: 880px;
+    width: 900px;
     height: 600px;
     margin-left: 450px;
 }
 #car img{
     width: 100%;
     margin-left: 280px;
+    top: -50px;
 }
 .titulo{
     margin-top: 70px;
@@ -191,31 +192,31 @@ header {
     display: flex;
     margin: auto;
     align-items: center;
-    width: 40vw;
-    height: 70vh;
+    width: 680px;
+    height: 600px;
     margin-left: 36%;
-    margin-top: 20px;
+    margin-top: 4%;
 }
 #carro img{
     position: relative;
-    width: 45vw;
+    width: 100%;
     margin-left: -560px;
-    top: 10px;
+    top: -50px;
 }
 .paragrafo{
     position: relative;
-    width: 30vw;
-    top: -430px;
-    margin-left: 53%;
+    width: 450px;
+    top: -590px;
+    margin-left: 57%;
     font-size: 26px;
     color: #003334;
     text-align: center;
 }
 .titulo-carro{
     position: relative;
-    width: 30vw;
-    top: -450px;
-    margin-left: 53%;
+    width: 350px;
+    top: -600px;
+    margin-left: 60%;
     font-size: 36px;
     color:#00BFFF;
     text-align: center;
@@ -256,8 +257,7 @@ header {
 }
 .te1{
   position: relative;
-  width: 10vw;
-  height: 10vh;
+  width: 10px;
   margin-left: 8.5%;
   padding: 10px;
   box-sizing: border-box;
@@ -266,8 +266,7 @@ header {
 }
 .pe1{
   position: relative;
-  width: 13vw;
-  height: 10vh;
+  width: 190px;
   margin-left: 6.5%;
   padding: 2px;
   box-sizing: border-box;
@@ -277,9 +276,9 @@ header {
 }
 .te2{
   position: relative;
-  width: 10vw;
+  width: 10px;
   margin-left: 32.5%;
-  margin-top: -150px;
+  margin-top: -200px;
   padding: 10px;
   box-sizing: border-box;
   color: #003334;
@@ -287,7 +286,7 @@ header {
 }
 .pe2{
   position: relative;
-  width: 18vw;
+  width: 290px;
   margin-left: 28%;
   padding: 2px;
   box-sizing: border-box;
@@ -297,7 +296,7 @@ header {
 }
 .te3{
   position: relative;
-  width: 10vw;
+  width: 10px;
   margin-left: 58.5%;
   margin-top: -230px;
   padding: 10px;
@@ -307,7 +306,7 @@ header {
 }
 .pe3{
   position: relative;
-  width: 20vw;
+  width: 290px;
   margin-left: 53%;
   padding: 2px;
   box-sizing: border-box;
@@ -317,8 +316,8 @@ header {
 }
 .te4{
   position: relative;
-  width: 10vw;
-  margin-left: 83%;
+  width: 10px;
+  margin-left: 83.5%;
   margin-top: -160px;
   padding: 10px;
   box-sizing: border-box;
@@ -328,8 +327,8 @@ header {
 }
 .pe4{
   position: relative;
-  width: 11vw;
-  margin-left: 82%;
+  width: 200px;
+  margin-left: 81%;
   padding: 2px;
   box-sizing: border-box;
   color: #1E1E1E;
@@ -388,11 +387,9 @@ footer {
 }
 
 .social {
-  position: absolute;
-  width: 4vw;
-  height: 0vh;
-  top: 2420px;
-  right: 180px;
+  position: relative;
+  margin-left: 85%;
+  margin-top: -200px;
   display: flex;
   gap: 10px;
 }
